@@ -35,8 +35,8 @@ $(BUILD_DIR)/%.o : $(SRC_DIR)/%.cpp
 
 .PHONY : clean
 clean :
-	-@rm build/*.o 2> /dev/null || true
-	-@rm game 2> /dev/null || true
+	-@rm $(BUILD_DIR)/*.o 2> /dev/null || true
+	-@rm $(EXE) 2> /dev/null || true
 
 #proto:
 #	g++ main.cpp -g -pedantic -o test -lSDL2
