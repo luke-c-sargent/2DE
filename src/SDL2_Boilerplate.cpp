@@ -1,4 +1,4 @@
-#include "SDL2_Boilerplate.h"
+#include "SDL2_boilerplate.hpp"
 #include <iostream>
 
 int init_video(void) {

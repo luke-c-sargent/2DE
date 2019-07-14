@@ -1,8 +1,7 @@
 #include <iostream>
 
 #include <SDL2/SDL_image.h>
-
-#include "SDL2image_Boilerplate.h"
+#include "SDL2image_boilerplate.hpp"
 
 int init_SDLimage() {
 	int flags=IMG_INIT_JPG|IMG_INIT_PNG;

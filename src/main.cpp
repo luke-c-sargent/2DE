@@ -1,8 +1,4 @@
-//#include <iostream>
-//#include <SDL2/SDL.h>
-
-#include "Game.h"
-//using namespace std;
+#include "app.hpp"
 
 int main() {
 	return Game::run();

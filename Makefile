@@ -36,6 +36,9 @@ clean :
 	-@rm $(BUILD_DIR)/*.o 2> /dev/null || true
 	-@rm $(EXE) 2> /dev/null || true
 
+.PHONY : remake
+remake : clean all
+
 .PHONY : print #for debuggery
 print:
 	@echo $(OBJECTS)

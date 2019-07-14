@@ -1,6 +1,6 @@
-#include "SDL2_Boilerplate.h"
-#include "SDL2image_Boilerplate.h"
-#include "Game.h"
+#include "SDL2_boilerplate.hpp"
+#include "SDL2image_boilerplate.hpp"
+#include "app.hpp"
 
 int Game::init(){
 	return init_SDL() + init_SDLimage();
